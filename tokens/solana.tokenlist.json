@@ -1,26 +1,25 @@
 {
   "name": "Proof of Gaming Token List",
-  "logoURI": "https://raw.githubusercontent.com/batoosai47/solanatokenregistry/main/assets/logo.png",
-  "tags": {
-    "game": {
-      "name": "Game",
-      "description": "Token rewarded for game completion"
-    }
-  },
+  "tags": {},
   "timestamp": "2025-06-26T00:00:00+00:00",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
   "tokens": [
     {
       "chainId": 101,
       "address": "5Zdrzhsd7XVZcJtsHFuhGaA5pKbAyPoBB9dUAfCs1WAx",
       "symbol": "UNTR",
-      "name": "Unturned",
+      "name": "Unturned Completion Coin",
       "decimals": 0,
-      "logoURI": "https://raw.githubusercontent.com/batoosai47/solanatokenregistry/main/assets/5Zdrzhsd7XVZcJtsHFuhGaA5pKbAyPoBB9dUAfCs1WAx/logo.png",
-      "tags": ["game"],
+      "logoURI": "https://batoosai47.github.io/solana-token-registry/assets/5Zdrzhsd7XVZcJtsHFuhGaA5pKbAyPoBB9dUAfCs1WAx/unturned.png",
       "extensions": {
-        "website": "https://pogcoins.duckdns.org",
-        "whitepaper": "https://pogcoins.duckdns.org/whitepaper",
-        "description": "Token rewarded to players who complete Unturned through Proof of Gaming."
+        "website": "https://proof-of-gaming.xyz",
+        "whitepaper": "https://batoosai47.github.io/solana-token-registry/assets/5Zdrzhsd7XVZcJtsHFuhGaA5pKbAyPoBB9dUAfCs1WAx/whitepaper.pdf",
+        "description": "Récompense distribuée automatiquement quand un joueur termine 100% du jeu Unturned.",
+        "creator": "Proof of Gaming"
       }
     }
   ]
